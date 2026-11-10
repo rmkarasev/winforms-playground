@@ -6,4 +6,14 @@ public partial class Form1 : Form
     {
         InitializeComponent();
     }
+
+    private void simpleButton1_Click(object sender, EventArgs e)
+    {
+        contextMenuStrip1.Show(Cursor.Position);
+    }
+
+    private void simpleButton2_Click(object sender, EventArgs e)
+    {
+        popupMenu1.ShowPopup(Cursor.Position);
+    }
 }
