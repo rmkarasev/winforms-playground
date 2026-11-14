@@ -16,4 +16,9 @@ public partial class Form1 : Form
     {
         popupMenu1.ShowPopup(Cursor.Position);
     }
+
+    private void barButtonItem5_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+    {
+
+    }
 }
